@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&animation=fadeIn&section=footer&text=🚗🚘🚛&fontAlign=70)
-
+# 안녕하세요, 백엔드 개발자 강준현입니다.
 
     
 # 프로젝트 목록
