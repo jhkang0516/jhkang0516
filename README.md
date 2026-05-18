@@ -84,7 +84,6 @@ Spring Boot 기반 백엔드와 데이터/머신러닝 파이프라인을 함께
 - Docker, GitHub Actions, GCP Cloud Run 기반 배포 자동화와 운영 안정성 검증
 - k6 부하 테스트, 병목 분석, Cloud SQL/Redis/CDN 활용을 통한 확장성 개선
 - LLM, embedding, clustering 기반 상담 intent discovery 파이프라인 구현
-- Notebook 실험 코드를 재사용 가능한 Python 프로젝트 구조로 정리
 - 팀 프로젝트에서 백엔드, 프론트엔드, 모바일, 데이터 처리 코드와 협업 흐름 연결
 
 ## Projects
