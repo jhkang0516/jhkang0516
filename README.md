@@ -4,7 +4,6 @@
 
 Spring Boot와 Java를 중심으로 안정적인 API, 인증/인가, 데이터 모델링, 클라우드 배포까지 고민하는 백엔드 개발자입니다.
 
-[![Profile Views](https://komarev.com/ghpvc/?username=jhkang0516&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/jhkang0516)
 [![GitHub](https://img.shields.io/badge/GitHub-jhkang0516-181717?style=flat&logo=github&logoColor=white)](https://github.com/jhkang0516)
 [![Velog](https://img.shields.io/badge/Velog-jhkang0516-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@jhkang0516)
 
@@ -22,27 +21,27 @@ Spring Boot와 Java를 중심으로 안정적인 API, 인증/인가, 데이터 �
       <sub>Java 21 · Spring Boot 3 · JPA/QueryDSL · MySQL · Redis · GCP · Docker · GitHub Actions · k6</sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/jhkang0516/moim-app"><strong>moim-app</strong></a>
+      <a href="https://github.com/jhkang0516/intent_classifier"><strong>intent_classifier</strong></a>
       <br />
-      즉시 모임 MVP를 위한 iOS 앱과 Spring Boot 백엔드 프로젝트입니다. 인증, 모임 생성/참여, 소셜, 채팅, 리뷰 도메인을 API 중심으로 설계했습니다.
+      상담 전문에서 고객 의도를 자동으로 발견하고 대표 intent로 군집화하는 머신러닝 파이프라인입니다. Notebook 코드를 Python 프로젝트 구조로 정리하고 산출물 조회/후처리 스크립트를 구성했습니다.
       <br /><br />
-      <sub>Swift · Java 21 · Spring Boot · Spring Security · JPA · JWT · H2</sub>
+      <sub>Python · LLM · Embedding · HDBSCAN · Pandas · scikit-learn</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/jhkang0516/dialect_classification"><strong>dialect_classification</strong></a>
+      <a href="https://github.com/UMC-Foot-Step"><strong>UMC-Foot-Step</strong></a>
       <br />
-      지역별 방언 분류를 위한 전처리와 모델 실험 프로젝트입니다. 텍스트 데이터 처리, 모델 선정, 실험 비교를 중심으로 진행했습니다.
+      UMC 3기 안드로이드 앱 개발 프로젝트 "당신의 발자취" 팀입니다. 발자취를 남기며 나만의 갤러리를 기록하는 서비스를 백엔드 중심으로 구현했습니다.
       <br /><br />
-      <sub>Python · Jupyter Notebook · NLP · Machine Learning</sub>
+      <sub>Java · Spring Boot · Kotlin · Android · Team Project</sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/jhkang0516/Mogakso"><strong>Mogakso</strong></a>
+      <a href="https://github.com/ajou-2026-1-capstone-5/ostone"><strong>ostone</strong></a>
       <br />
-      데이터 분석과 머신러닝 학습 기록을 정리한 저장소입니다. 예측 모델링, AutoML, 전처리, 피처 엔지니어링 실험을 담았습니다.
+      아주대학교 2026학년도 1학기 SW캡스톤프로젝트 5조 저장소입니다. 웹 서비스 구현을 중심으로 프론트엔드, 백엔드, 데이터 처리 코드를 함께 관리합니다.
       <br /><br />
-      <sub>Python · Jupyter Notebook · PyCaret · Data Analysis</sub>
+      <sub>TypeScript · Java · Python · Docker · Capstone Project</sub>
     </td>
   </tr>
 </table>
