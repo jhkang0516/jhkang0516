@@ -19,27 +19,27 @@ Spring Boot 기반 백엔드와 데이터/머신러닝 파이프라인을 함께
       <sub>Java 21 · Spring Boot 3 · JPA/QueryDSL · MySQL · Redis · GCP · Docker · GitHub Actions · k6</sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/jhkang0516/intent_classifier"><strong>intent_classifier</strong></a>
+      <a href="https://github.com/ajou-2026-1-capstone-5/ostone"><strong>Ostone</strong></a>
       <br />
-      상담 전문에서 고객 의도를 자동으로 발견하고 대표 intent로 군집화하는 NLP/ML 파이프라인입니다. Notebook 실험 코드를 Python 프로젝트 구조로 정리하고 실행, 후처리, 산출물 조회 스크립트를 분리했습니다.
+      상담 로그를 분석해 실행 가능한 CS 워크플로우 Domain Pack으로 전환하는 캡스톤 프로젝트입니다. Spring Boot 백엔드, Vite 프론트엔드, Python ML 파이프라인, Docker 기반 실행 환경을 함께 구성했습니다.
       <br /><br />
-      <sub>Python · LLM · Transformers · Embedding · HDBSCAN · Pandas · scikit-learn</sub>
+      <sub>TypeScript · Java · Python · PostgreSQL · Docker · Airflow · Capstone Project</sub>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/UMC-Foot-Step"><strong>UMC-Foot-Step</strong></a>
+      <a href="https://github.com/UMC-Foot-Step/Server"><strong>UMC-Foot-Step</strong></a>
       <br />
       UMC 3기 안드로이드 앱 개발 프로젝트 "당신의 발자취" 팀입니다. 위치 기반 기록 서비스에서 백엔드 API와 서비스 흐름을 구현하며 팀 프로젝트 개발을 경험했습니다.
       <br /><br />
       <sub>Java · Spring Boot · REST API · Kotlin · Android · Team Project</sub>
     </td>
     <td width="50%">
-      <a href="https://github.com/ajou-2026-1-capstone-5/ostone"><strong>ostone</strong></a>
+      <a href="https://github.com/ajoukeun-profit/RegimeAdaptivePortfolio"><strong>RegimeAdaptivePortfolio</strong></a>
       <br />
-      아주대학교 2026학년도 1학기 SW캡스톤프로젝트 5조 저장소입니다. 웹 서비스 구현을 중심으로 프론트엔드, 백엔드, 데이터 처리 코드를 함께 관리합니다.
+      금융 시장 국면을 인식해 동적으로 자산을 배분하는 포트폴리오 전략 프로젝트입니다. HMM pseudo-label, Conv1D+LSTM 분류, 2-Regime MVO, weight cap 백테스트로 전략을 검증했습니다.
       <br /><br />
-      <sub>TypeScript · Java · Python · Docker · Capstone Project</sub>
+      <sub>Python · PyTorch · HMM · Conv1D+LSTM · MVO · Financial ML · Backtesting</sub>
     </td>
   </tr>
 </table>
@@ -95,11 +95,11 @@ Spring Boot 기반 백엔드와 데이터/머신러닝 파이프라인을 함께
 </details>
 
 <details>
-  <summary><strong>intent_classifier - 상담 의도 발견 및 군집화 파이프라인</strong></summary>
+  <summary><strong>Ostone - 상담 로그 기반 CS 워크플로우 생성 시스템</strong></summary>
   <br />
-  상담 전문에서 고객 의도 boundary를 찾고, segment별 intent phrase를 추출한 뒤 embedding과 HDBSCAN으로 대표 intent를 구성하는 프로젝트입니다. LLM 기반 split/merge refinement, canonical intent naming, balanced 후처리, 산출물 조회 CLI를 포함합니다.
+  아주대학교 2026학년도 1학기 SW캡스톤프로젝트 5조 저장소입니다. 상담 로그에서 운영 지식을 추출하고, Intent/Slot/Policy/Risk/Workflow로 구성된 Domain Pack을 생성·검토·실행하는 시스템을 구현했습니다. Spring Boot 백엔드, Vite 프론트엔드, Python ML 파이프라인, Docker Compose 기반 로컬 실행 환경을 함께 관리했습니다.
   <br /><br />
-  Repository: <a href="https://github.com/jhkang0516/intent_classifier">github.com/jhkang0516/intent_classifier</a>
+  Repository: <a href="https://github.com/ajou-2026-1-capstone-5/ostone">github.com/ajou-2026-1-capstone-5/ostone</a>
 </details>
 
 <details>
@@ -112,9 +112,9 @@ Spring Boot 기반 백엔드와 데이터/머신러닝 파이프라인을 함께
 </details>
 
 <details>
-  <summary><strong>ostone - SW Capstone Project</strong></summary>
+  <summary><strong>RegimeAdaptivePortfolio - 시장 국면 인식 기반 동적 포트폴리오 전략</strong></summary>
   <br />
-  아주대학교 2026학년도 1학기 SW캡스톤프로젝트 5조 저장소입니다. TypeScript, Java, Python 기반의 웹 서비스 구현과 Docker 기반 실행 환경을 함께 관리합니다.
+  금융 딥러닝 기초 기말 프로젝트로, HMM이 만든 시장 국면 pseudo-label을 Conv1D+LSTM으로 예측하고 그 확률을 MVO 포트폴리오 비중에 연결했습니다. 최종 전략은 Bear vs Non-Bear binary soft label, 2-Regime MVO, 자산별 weight cap 40%를 적용해 누적수익률과 위험 지표를 함께 비교했습니다.
   <br /><br />
-  Repository: <a href="https://github.com/ajou-2026-1-capstone-5/ostone">github.com/ajou-2026-1-capstone-5/ostone</a>
+  Repository: <a href="https://github.com/ajoukeun-profit/RegimeAdaptivePortfolio">github.com/ajoukeun-profit/RegimeAdaptivePortfolio</a>
 </details>
