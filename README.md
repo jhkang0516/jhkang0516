@@ -1,76 +1,120 @@
-<!-- ══════════════════════════ HEADER ══════════════════════════ -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6DB33F,100:20C997&height=180&section=header&text=Junhyeon%20Kang&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20who%20validates%20performance%20with%20numbers&descSize=16&descAlignY=58" alt="header" />
+Spring Boot 기반 백엔드와 데이터/머신러닝 파이프라인을 함께 다루며, 서비스 안정성, API 설계, 성능 개선, 협업 가능한 코드 구조에 관심을 두고 있습니다.
 
-성능과 확장성을 **수치로 검증하는 Spring Boot 백엔드 엔지니어**입니다.
-데이터·머신러닝 파이프라인까지 함께 다룹니다.
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jhkang0516)
-[![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@jhkang0516)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jhkang0516@ajou.ac.kr)
+[![GitHub](https://img.shields.io/badge/GitHub-jhkang0516-181717?style=flat&logo=github&logoColor=white)](https://github.com/jhkang0516)
+[![Velog](https://img.shields.io/badge/Velog-jhkang0516-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@jhkang0516)
 
 </div>
 
-<br />
-
-<!-- ═══════════════════════ CORE STRENGTHS ═══════════════════════ -->
-
-## 🚀 Core Strengths
-
-> **대규모 트래픽 백엔드 · 성능 최적화 · ML 파이프라인** — 세 축으로 정리했습니다.
-
-| | 강점 | 근거 |
-|:--:|---|---|
-| 📈 | **대규모 트래픽 대응** | k6 부하 테스트로 **1000 VUs**까지 검증, Cloud Run · Cloud SQL · Redis · CDN 운영 구조 설계 |
-| ⚡ | **조회 성능 최적화** | QueryDSL DTO Projection · 인덱스 튜닝 · Read/Write 분리로 응답 성능 개선 |
-| 🤖 | **백엔드 × ML 파이프라인** | LLM · embedding · clustering 기반 상담 intent discovery 파이프라인 설계·구현 |
-
-<br />
-
-<!-- ═══════════════════════ TECH STACK ═══════════════════════ -->
-
-## 🛠️ Tech Stack
-
-| 분류 | 기술 |
-|:--|:--|
-| **Backend** | `Java 21` · `Spring Boot 3` · `Spring Security` · `JPA / Hibernate` · `QueryDSL` · `JWT` |
-| **Data & ML** | `Python` · `PyTorch` · `Hugging Face` · `scikit-learn` · `Pandas` · `HDBSCAN` |
-| **Infra & DevOps** | `MySQL` · `Redis` · `Docker` · `GCP (Cloud Run)` · `GitHub Actions` · `k6` |
-
-<br />
-
-<!-- ═══════════════════════ FEATURED PROJECTS ═══════════════════════ -->
-
-## 📌 Featured Projects
+## Pinned
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🍱 <a href="https://github.com/jhkang0516/foodcom">FoodCom</a></h3>
-      대규모 트래픽을 고려한 음식 커뮤니티 서비스.<br />
-      Cloud Run · Cloud SQL · Redis · CDN 운영 구조와 QueryDSL DTO Projection · 인덱스 최적화로 <b>1000 VUs</b>까지 확장성·안정성을 검증했습니다.
+    <td width="50%">
+      <a href="https://github.com/jhkang0516/foodcom"><strong>FoodCom</strong></a>
+      <br />
+      대규모 트래픽을 고려한 음식 커뮤니티 서비스입니다. Spring Boot 백엔드, Cloud Run, Cloud SQL, Redis, CDN, CI/CD, k6 부하 테스트를 통해 운영 환경 관점의 확장성과 안정성을 검증했습니다.
       <br /><br />
-      <code>Java 21</code> <code>Spring Boot 3</code> <code>QueryDSL</code> <code>Redis</code> <code>GCP</code> <code>k6</code>
+      <sub>Java 21 · Spring Boot 3 · JPA/QueryDSL · MySQL · Redis · GCP · Docker · GitHub Actions · k6</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>🧩 <a href="https://github.com/ajou-2026-1-capstone-5/ostone">Ostone</a> <sub>· Capstone</sub></h3>
-      상담 로그를 분석해 실행 가능한 CS 워크플로우 <b>Domain Pack</b>으로 전환하는 시스템.<br />
-      Spring Boot 백엔드와 Python ML 파이프라인(intent discovery)을 함께 설계했습니다.
+    <td width="50%">
+      <a href="https://github.com/ajou-2026-1-capstone-5/ostone"><strong>Ostone</strong></a>
+      <br />
+      상담 로그를 분석해 실행 가능한 CS 워크플로우 Domain Pack으로 전환하는 캡스톤 프로젝트입니다. Spring Boot 백엔드, Vite 프론트엔드, Python ML 파이프라인, Docker 기반 실행 환경을 함께 구성했습니다.
       <br /><br />
-      <code>Java</code> <code>Python</code> <code>PostgreSQL</code> <code>Airflow</code> <code>Docker</code>
+      <sub>TypeScript · Java · Python · PostgreSQL · Docker · Airflow · Capstone Project</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/UMC-Foot-Step/Server"><strong>UMC-Foot-Step</strong></a>
+      <br />
+      UMC 3기 안드로이드 앱 개발 프로젝트 "당신의 발자취" 팀입니다. 위치 기반 기록 서비스에서 백엔드 API와 서비스 흐름을 구현하며 팀 프로젝트 개발을 경험했습니다.
+      <br /><br />
+      <sub>Java · Spring Boot · REST API · Kotlin · Android · Team Project</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/ajoukeun-profit/RegimeAdaptivePortfolio"><strong>RegimeAdaptivePortfolio</strong></a>
+      <br />
+      금융 시장 국면을 인식해 동적으로 자산을 배분하는 포트폴리오 전략 프로젝트입니다. HMM pseudo-label, Conv1D+LSTM 분류, 2-Regime MVO, weight cap 백테스트로 전략을 검증했습니다.
+      <br /><br />
+      <sub>Python · PyTorch · HMM · Conv1D+LSTM · MVO · Financial ML · Backtesting</sub>
     </td>
   </tr>
 </table>
 
-<sub>
-🔹 <a href="https://github.com/UMC-Foot-Step/Server">UMC-Foot-Step</a> — 위치 기반 기록 서비스 백엔드 API (팀 프로젝트) &nbsp;·&nbsp;
-🔹 <a href="https://github.com/ajoukeun-profit/RegimeAdaptivePortfolio">RegimeAdaptivePortfolio</a> — HMM + Conv1D/LSTM 시장 국면 인식 포트폴리오 전략
-</sub>
+## Tech Stack
 
-<br /><br />
+### Backend
 
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:20C997,100:6DB33F&height=100&section=footer" alt="footer" />
-</div>
+![Java](https://img.shields.io/badge/Java%2021-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=for-the-badge)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+### Data & Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Transformers](https://img.shields.io/badge/Transformers-FFCA28?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![HDBSCAN](https://img.shields.io/badge/HDBSCAN-374151?style=for-the-badge)
+
+### Infrastructure & DevOps
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
+
+## Focus
+
+- Spring Boot 기반 REST API 설계, 인증/인가, 도메인 모델링
+- JPA, QueryDSL, 인덱스, DTO Projection을 활용한 조회 성능 개선
+- Docker, GitHub Actions, GCP Cloud Run 기반 배포 자동화와 운영 안정성 검증
+- k6 부하 테스트, 병목 분석, Cloud SQL/Redis/CDN 활용을 통한 확장성 개선
+- LLM, embedding, clustering 기반 상담 intent discovery 파이프라인 구현
+- 팀 프로젝트에서 백엔드, 프론트엔드, 모바일, 데이터 처리 코드와 협업 흐름 연결
+
+## Projects
+
+<details>
+  <summary><strong>FoodCom - 대규모 트래픽 음식 커뮤니티 서비스</strong></summary>
+  <br />
+  Spring Boot 기반 음식 커뮤니티 서비스입니다. Cloud Run, Cloud SQL, Redis, Cloud Storage/CDN을 활용해 운영 환경을 고려한 구조를 설계했고, Read/Write 분리, QueryDSL DTO Projection, 인덱스 최적화, GitHub Actions 배포 자동화, k6 부하 테스트를 통해 1000 VUs 환경까지 검증했습니다.
+  <br /><br />
+  Repository: <a href="https://github.com/jhkang0516/foodcom">github.com/jhkang0516/foodcom</a>
+</details>
+
+<details>
+  <summary><strong>Ostone - 상담 로그 기반 CS 워크플로우 생성 시스템</strong></summary>
+  <br />
+  아주대학교 2026학년도 1학기 SW캡스톤프로젝트 5조 저장소입니다. 상담 로그에서 운영 지식을 추출하고, Intent/Slot/Policy/Risk/Workflow로 구성된 Domain Pack을 생성·검토·실행하는 시스템을 구현했습니다. Spring Boot 백엔드, Vite 프론트엔드, Python ML 파이프라인, Docker Compose 기반 로컬 실행 환경을 함께 관리했습니다.
+  <br /><br />
+  Repository: <a href="https://github.com/ajou-2026-1-capstone-5/ostone">github.com/ajou-2026-1-capstone-5/ostone</a>
+</details>
+
+<details>
+  <summary><strong>UMC-Foot-Step - 당신의 발자취</strong></summary>
+  <br />
+  발자취를 남기며 나만의 갤러리를 기록하는 위치 기반 서비스입니다. UMC 3기 팀 프로젝트로 진행했으며, 백엔드 API 구현과 Android 앱 협업 흐름을 경험했습니다.
+  <br /><br />
+  Organization: <a href="https://github.com/UMC-Foot-Step">github.com/UMC-Foot-Step</a><br />
+  Backend: <a href="https://github.com/UMC-Foot-Step/Server">github.com/UMC-Foot-Step/Server</a>
+</details>
+
+<details>
+  <summary><strong>RegimeAdaptivePortfolio - 시장 국면 인식 기반 동적 포트폴리오 전략</strong></summary>
+  <br />
+  금융 딥러닝 기초 기말 프로젝트로, HMM이 만든 시장 국면 pseudo-label을 Conv1D+LSTM으로 예측하고 그 확률을 MVO 포트폴리오 비중에 연결했습니다. 최종 전략은 Bear vs Non-Bear binary soft label, 2-Regime MVO, 자산별 weight cap 40%를 적용해 누적수익률과 위험 지표를 함께 비교했습니다.
+  <br /><br />
+  Repository: <a href="https://github.com/ajoukeun-profit/RegimeAdaptivePortfolio">github.com/ajoukeun-profit/RegimeAdaptivePortfolio</a>
+</details>
