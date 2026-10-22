@@ -17,17 +17,10 @@
 
 ### What I do
 
-- **Backend** — Spring Boot · JPA / Hibernate · PostgreSQL / PostGIS
-  - 53만 행 가게 테이블의 두 글자 검색 0.9초 → 0.1초: bigram 표현식 GIN 인덱스, 검색어 길이별 SQL 분기로 범용 실행 계획 회피
-  - Hibernate `PESSIMISTIC_WRITE`가 `FOR NO KEY UPDATE`로 실행돼 외래 키 검사와 충돌하지 않는 문제를 찾아 네이티브 `FOR UPDATE`로 수정
-  - 요청마다 후보 전체를 정렬하던 추천 피드를 구간별 제한 조회 + 부분 인덱스로 교체
-  - `RoutingDataSource` + `LazyConnectionDataSourceProxy`로 `readOnly` 트랜잭션을 Replica로 라우팅 (foodcom)
-- **Infra** — AWS (EC2 · RDS · CloudFront) · GCP Cloud Run · Docker · nginx
-  - 단일 EC2 nginx 블루·그린 배포: 새 컨테이너 헬스 체크 후 업스트림 전환, 실패하면 기존 컨테이너 유지
-  - 이전 버전 코드와 호환되는 마이그레이션 규칙과 위험 DDL CI 검사, `CREATE INDEX CONCURRENTLY`와 Flyway 잠금의 교착 해결
-  - 2GB 인스턴스 JVM 튜닝: direct buffer 캐시 제한·glibc arena 축소로 업로드 OOM 해소, 최고 메모리 26% 감소, G1GC 명시
-- **App** — Expo·React Native iOS 앱 개발·출시. 릴스·네이버 지도 공유로 가게 저장, 지도 화면
-- **AI·Data** — 주소 + LLM 장소 매칭(매칭률 62% → 77%), 릴스 캡션 요약, 임베딩·HDBSCAN 상담 의도 분석
+- **Backend** — 쿼리·인덱스 튜닝(검색 0.9초 → 0.1초), 트랜잭션 잠금·동시성 문제 해결, 읽기·쓰기 DB 분리
+- **Infra** — 블루·그린 무중단 배포, 이전 코드와 호환되는 스키마 마이그레이션, JVM 메모리 튜닝
+- **App** — React Native iOS 앱 개발·출시
+- **AI·Data** — LLM 장소 매칭, 임베딩·클러스터링 기반 상담 의도 분석
 
 ### Projects
 
