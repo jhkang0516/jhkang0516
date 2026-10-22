@@ -33,7 +33,7 @@
 
 ### Stack
 
-- **Backend** Java 21 · Spring Boot · JPA / Hibernate · PostgreSQL / PostGIS · Redis
+- **Backend** Java · Spring Boot · JPA / Hibernate · PostgreSQL / PostGIS · Redis
 - **App** React Native · Expo · TypeScript · TanStack Query
 - **Infra** AWS (EC2 · RDS · CloudFront) · GCP (Cloud Run · Cloud SQL) · Docker · nginx · GitHub Actions · Jenkins
 - **AI·Data** Python · OpenAI API · 임베딩 · HDBSCAN · PyTorch
