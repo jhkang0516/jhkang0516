@@ -1,39 +1,39 @@
-### 운영 중인 서비스의 성능·동시성·배포 문제를 해결하는 Java·Spring 백엔드 개발자
+## Junhyeon Kang
 
-맛집 지도 앱 **[핀디쉬](https://apps.apple.com/kr/app/id6811157600)** 의 백엔드와 인프라를 혼자 설계해 App Store에 출시하고 운영합니다.
+**백엔드를 중심으로 앱·인프라·AI까지, 아이디어를 출시된 서비스로 만드는 개발자입니다.**
 
-문제는 실행 계획·부하 테스트·동시성 테스트로 재현하고, 고친 결과도 같은 방법으로 확인합니다.
+맛집 지도 앱 [핀디쉬](https://apps.apple.com/kr/app/id6811157600)를 혼자 설계·개발해 App Store에 출시하고 운영하고 있습니다.
 
-[![App Store](https://img.shields.io/badge/App_Store-핀디쉬-0D96F6?style=flat&logo=appstore&logoColor=white)](https://apps.apple.com/kr/app/id6811157600)
-[![Velog](https://img.shields.io/badge/Velog-기술_블로그-20C997?style=flat&logo=velog&logoColor=white)](https://velog.io/@jhkang0516)
+문제는 실행 계획·부하 테스트·실측으로 재현하고, 고친 결과도 같은 방법으로 확인합니다.
+
+[![App Store](https://img.shields.io/badge/App_Store-핀디쉬-0D96F6?style=flat-square&logo=appstore&logoColor=white)](https://apps.apple.com/kr/app/id6811157600)
+[![Velog](https://img.shields.io/badge/Velog-기술_블로그-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@jhkang0516)
+
+- 💼 **래브라도랩스** 인턴 · 재직 중
+- 🏆 아주대학교 **캡스톤디자인 우수상 (2위)** · [ostone](https://github.com/ajou-2026-1-capstone-5/ostone)
+- 🏆 아주대학교 **하계 모각소 장려상**
 
 ---
 
-#### 백엔드에서 풀어낸 문제
+### What I do
 
-- **검색 성능** — 53만 행 가게 테이블에서 두 글자 검색 0.9초 → 0.1초. bigram GIN 인덱스와 검색어 길이별 SQL 분기 · [PinDish](https://github.com/jhkang0516/pindish)
-- **동시성** — Hibernate 비관 잠금이 `FOR NO KEY UPDATE`로 실행돼 자식 INSERT를 막지 못하는 문제를 찾아 네이티브 `FOR UPDATE`로 수정 · [PinDish](https://github.com/jhkang0516/pindish)
-- **배포 안정성** — 단일 EC2 블루·그린 배포, 위험한 DDL은 CI에서 차단하고 스키마 변경은 이전 코드와 호환되게 나눠 배포 · [PinDish](https://github.com/jhkang0516/pindish)
-- **JVM 메모리** — 동시 업로드 부하 테스트로 힙 밖 direct buffer OOM의 원인을 찾아 해소, 프로세스 최고 메모리 26% 감소 · [PinDish](https://github.com/jhkang0516/pindish)
-- **읽기·쓰기 분리** — `readOnly` 트랜잭션을 Replica로 라우팅, 커버링 인덱스·DTO 프로젝션까지 더해 k6 평균 응답 605 → 360ms · [foodcom](https://github.com/jhkang0516/foodcom)
+- **Backend** — Spring Boot·PostgreSQL API 설계. 53만 행 검색 0.9초 → 0.1초, 잠금 경합으로 어긋나던 댓글 정합성 해결
+- **App** — Expo·React Native iOS 앱 개발·출시. 릴스·네이버 지도 공유로 가게 저장, 지도 화면
+- **Infra·DevOps** — AWS 블루·그린 배포, DB 마이그레이션 호환성 검사, iOS 빌드·업로드·심사 제출 자동화
+- **AI·Data** — 주소 + LLM 장소 매칭(매칭률 62% → 77%), 릴스 캡션 요약, 임베딩·HDBSCAN 상담 의도 분석
 
-#### 경력 · 수상
+### Projects
 
-- 💼 **래브라도랩스** 인턴 (재직 중)
-- 🏆 아주대학교 **캡스톤디자인 우수상 (2위)** — [ostone](https://github.com/ajou-2026-1-capstone-5/ostone)
-- 🏆 아주대학교 **하계 모각소 장려상**
+| 프로젝트 | 설명 | 역할 |
+|---|---|---|
+| **[PinDish](https://github.com/jhkang0516/pindish)** | 목적별 맛집 지도 앱 · App Store 운영 중 | 1인 개발 (백엔드·앱·인프라) |
+| **[foodcom](https://github.com/jhkang0516/foodcom)** | 음식 커뮤니티 · GCP Cloud Run, 읽기·쓰기 DB 분리로 k6 평균 응답 605 → 360ms | 백엔드 |
+| **[ostone](https://github.com/ajou-2026-1-capstone-5/ostone)** | 상담 로그로 AI 상담 워크플로우를 만드는 시스템 · 캡스톤 우수상 | 백엔드·LLM 파이프라인 |
+| **[dialect_classification](https://github.com/jhkang0516/dialect_classification)** | 6개 지역 방언 음성 분류 (MFCC · ResNeXt50) | ML |
 
-#### 프로젝트
+### Stack
 
-| 프로젝트 | 백엔드 담당 |
-|---|---|
-| [**PinDish**](https://github.com/jhkang0516/pindish) · App Store 운영 중 | 1인 개발. Spring Boot·PostGIS API, 공공데이터 53만 건 적재 배치, AWS 운영 |
-| [**foodcom**](https://github.com/jhkang0516/foodcom) · F-Lab | 1인 백엔드. Cloud Run, Cloud SQL 읽기·쓰기 분리, Redis 토큰 저장, k6 부하 테스트 |
-| [**ostone**](https://github.com/ajou-2026-1-capstone-5/ostone) · 캡스톤 우수상 | AI 상담 시스템의 도메인팩 API, LLM 상담 도구, 메시지 순서 경합 수정 |
-
-#### Stack
-
-- **Backend** Java 21 · Spring Boot · JPA / Hibernate · PostgreSQL / PostGIS · Flyway · Redis
-- **Infra** AWS (EC2 · RDS · CloudFront) · GCP (Cloud Run · Cloud SQL) · Docker · nginx
-- **CI/CD** GitHub Actions · Jenkins
-- **Test·Ops** PostGIS 컨테이너 통합 테스트 · k6 · Sentry
+- **Backend** Java 21 · Spring Boot · JPA / Hibernate · PostgreSQL / PostGIS · Redis
+- **App** React Native · Expo · TypeScript · TanStack Query
+- **Infra** AWS (EC2 · RDS · CloudFront) · GCP (Cloud Run · Cloud SQL) · Docker · nginx · GitHub Actions · Jenkins
+- **AI·Data** Python · OpenAI API · 임베딩 · HDBSCAN · PyTorch
