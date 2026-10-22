@@ -27,7 +27,7 @@
 | 프로젝트 | 설명 | 역할 |
 |---|---|---|
 | **[PinDish](https://github.com/jhkang0516/pindish)** | 목적별 맛집 지도 앱 · App Store 운영 중 | 1인 개발 (백엔드·앱·인프라) |
-| **[foodcom](https://github.com/jhkang0516/foodcom)** | 음식 커뮤니티 · GCP Cloud Run, 읽기·쓰기 DB 분리·쿼리 튜닝, k6 평균 응답 605 → 360ms | 백엔드 |
+| **[foodcom](https://github.com/jhkang0516/foodcom)** | 음식 커뮤니티 · GCP Cloud Run, 평균 응답 605 → 360ms | 백엔드 |
 | **[ostone](https://github.com/ajou-2026-1-capstone-5/ostone)** | 상담 로그로 AI 상담 워크플로우를 만드는 시스템 · 캡스톤 우수상 | 백엔드·LLM 파이프라인 |
 | **[dialect_classification](https://github.com/jhkang0516/dialect_classification)** | 6개 지역 방언 음성 분류 (MFCC · ResNeXt50) | ML |
 
